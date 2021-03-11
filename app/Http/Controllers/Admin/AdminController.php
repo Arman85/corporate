@@ -56,8 +56,6 @@ class AdminController extends \Corp\Http\Controllers\Controller
 		return view($this->template)->with($this->vars);
 		
 		
-		
-		
 	}
 	
 	public function getMenu() {

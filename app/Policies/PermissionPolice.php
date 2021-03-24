@@ -1,0 +1,27 @@
+<?php
+
+namespace Corp\Policies;
+
+use Illuminate\Auth\Access\HandlesAuthorization;
+
+use Corp\User;
+
+class PermissionPolice
+{
+    use HandlesAuthorization;
+
+    /**
+     * Create a new policy instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        //
+    }
+
+    public function change ( User $user )
+    {
+        return $user->canDo('EDIT_USERS');
+    }
+}

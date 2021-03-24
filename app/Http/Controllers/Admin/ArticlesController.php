@@ -8,7 +8,7 @@ use Corp\Http\Controllers\Controller;
 use Corp\Repositories\ArticlesRepository;
 use Gate;
 use Corp\Category;
-use Corp\Http\Request\ArticleRequests;
+use Corp\Http\Requests\ArticleRequest;
 use Corp\Article;
 
 class ArticlesController extends AdminController
@@ -148,9 +148,18 @@ class ArticlesController extends AdminController
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(ArticleRequest $request, Article $article)
     {
         //
+        $result = $this->a_rep->updateArticle($request, $article);
+
+        if (is_array($result) && !empty($result['error'])) {
+            return back()->with($result);
+        }
+
+
+        return redirect('/admin')->with($result);
+
     }
 
     /**
@@ -159,8 +168,15 @@ class ArticlesController extends AdminController
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Article $article)
     {
         //
+        $result = $this->a_rep->deleteArticle($article);
+
+        if (is_array($result) && !empty($result['error'])) {
+            return back()->with($result);
+        }
+
+        return redirect('/admin')->with($result);
     }
 }

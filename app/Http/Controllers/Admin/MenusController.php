@@ -8,6 +8,7 @@ use Corp\Repositories\PortfoliosRepository;
 use Gate;
 use Menu;
 use Illuminate\Http\Request;
+use Corp\Http\Requests\MenusRequest;
 
 use Corp\Http\Requests;
 use Corp\Http\Controllers\Controller;
@@ -110,7 +111,7 @@ class MenusController extends AdminController
         $filters = \Corp\Filter::select(['id', 'alias', 'title'])->get()->reduce(function ($returnFilters, $filter) {
             $returnFilters[$filter->alias] = $filter->title;
             return $returnFilters;
-        }, ['Раздел портфолио']);
+        }, ['parent' => 'Раздел портфолио']);
 
         $porfolios = $this->p_rep->get(['id', 'alias', 'title'])->reduce(function ($returnPortfolios, $portfolio) {
             $returnPortfolios[$portfolio->alias] = $portfolio->title;
@@ -129,9 +130,16 @@ class MenusController extends AdminController
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(MenusRequest $request)
     {
         //
+        $result = $this->m_rep->addMenu($request);
+
+        if (is_array($result) && !empty($result['error'])) {
+            return back()->with($result);
+        }
+
+        return redirect('/admin')->with($result);
     }
 
     /**

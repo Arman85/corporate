@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="369afabc-cee5-4489-809b-374eb1fc34f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/MenusRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/MenusPolicy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenusController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MenusController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repositories/MenusRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/MenusRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/myfiles/lesson.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/myfiles/lesson.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/pink/admin/menus_create_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pink/admin/menus_create_content.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pink/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pink/layouts/admin.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,11 +25,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/MenusController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="113" column="24" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+            <state relative-caret-position="321">
+              <caret line="173" column="43" selection-start-line="173" selection-start-column="43" selection-end-line="173" selection-end-column="43" />
               <folding>
                 <element signature="e#47#88#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/pink/admin/menus_create_content.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="835">
+              <caret line="165" column="60" selection-start-line="165" selection-start-column="60" selection-end-line="165" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -44,75 +57,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="8" selection-start-column="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Requests/MenusRequest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Repositories/MenusRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-              <folding>
-                <element signature="e#37#51#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Menu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Policies/MenusPolicy.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-              <folding>
-                <element signature="e#33#81#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/pink/admin/menus_create_content.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="116" column="54" selection-start-line="116" selection-start-column="42" selection-end-line="116" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/pink/layouts/admin.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -142,7 +86,6 @@
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/config/settings.php" />
         <option value="$PROJECT_DIR$/app/Article.php" />
-        <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
         <option value="$PROJECT_DIR$/resources/views/pink/admin/articles_create_content.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/ArticleRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ArticlesController.php" />
@@ -163,13 +106,14 @@
         <option value="$PROJECT_DIR$/resources/views/pink/admin/menus.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pink/admin/custom-menu-items.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pink/layouts/admin.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pink/admin/menus_create_content.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/MenusRequest.php" />
         <option value="$PROJECT_DIR$/app/Policies/MenusPolicy.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Menu.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/MenusController.php" />
         <option value="$PROJECT_DIR$/app/Repositories/MenusRepository.php" />
+        <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/MenusController.php" />
+        <option value="$PROJECT_DIR$/resources/views/pink/admin/menus_create_content.blade.php" />
         <option value="$PROJECT_DIR$/public/myfiles/lesson.txt" />
       </list>
     </option>
@@ -256,12 +200,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="corporate.loc" type="b2602c69:ProjectViewProjectNode" />
               <item name="corporate.loc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="corporate.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corporate.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="corporate.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corporate.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="corporate.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corporate.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Providers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="corporate.loc" type="b2602c69:ProjectViewProjectNode" />
@@ -304,7 +266,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,6 +280,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -367,18 +329,21 @@
       <workItem from="1616565076911" duration="9455000" />
       <workItem from="1616611585437" duration="452000" />
       <workItem from="1616847391593" duration="4193000" />
-      <workItem from="1616854729076" duration="3597000" />
+      <workItem from="1616854729076" duration="3675000" />
+      <workItem from="1617011100752" duration="3033000" />
+      <workItem from="1617018464711" duration="4353000" />
+      <workItem from="1617025874880" duration="1321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64152000" />
+    <option name="totallyTimeSpent" value="72937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.16950959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.5010846" side_tool="true" weight="0.2553305" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -503,13 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pink/admin/articles_create_content.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="835">
@@ -598,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pink/admin/menus.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -668,6 +619,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Policies/MenusPolicy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -692,30 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pink/admin/menus_create_content.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="116" column="54" selection-start-line="116" selection-start-column="42" selection-end-line="116" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/MenusController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="113" column="24" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
-          <folding>
-            <element signature="e#47#88#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Repositories/MenusRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -723,6 +657,37 @@
           <folding>
             <element signature="e#37#51#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="63" column="52" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/MenusController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="173" column="43" selection-start-line="173" selection-start-column="43" selection-end-line="173" selection-end-column="43" />
+          <folding>
+            <element signature="e#47#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pink/admin/menus_create_content.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="165" column="60" selection-start-line="165" selection-start-column="60" selection-end-line="165" selection-end-column="60" />
         </state>
       </provider>
     </entry>
